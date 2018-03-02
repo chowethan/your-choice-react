@@ -1,0 +1,113 @@
+.ui.menu.topmenu {
+  height: 57px;
+  background: #323232;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+
+.ui.menu.topmenu > .container {
+  /*margin: 0 95px !important;*/
+}
+
+.nav-logo {
+  padding: 6px 0px 6px 0px;
+  width: 115px;
+  height: 57px;
+  /*background: url("https://www.linode.com/media/images/header/linode-logo.svg");*/
+}
+
+.ui.menu {
+  margin: 0;
+}
+
+.ui.menu.topmenu .item {
+  padding: 0 15px;
+  font-size: 15px;
+  color: #A6A6A6;
+}
+
+.ui.menu.topmenu .item:hover {
+  color: #d9d9d9;
+  background: inherit;
+}
+
+.ui.menu .divider {
+  padding: 21px 15px;
+  color: #737373;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.ui.menu:not(.vertical) .item>.button {
+  padding: 5px 10px;
+  color: #737373;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #FFF;
+  background: #3BB878;
+  border-radius: 0;
+}
+
+.background {
+  color: #FFF;
+  background-color: #3BB878;
+}
+
+.background-image {
+  padding-bottom: 75px;
+  background-image: url("https://www.linode.com/media/images/home/cloud_15.png");
+  background-position: 25% 100%;
+  background-repeat: no-repeat;
+}
+
+.content-moar {
+  padding: 30px 0;
+  background: #35A56B;
+  color: #FFF;
+}
+
+.content-moar a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+input,
+button {
+  border-radius: 0 !important;
+}
+
+.ui.fluid.button.create {
+  border: 0 solid #24709C;
+  border-bottom-width: 2px;
+  font-size: 18px !important;
+  font-weight: 400;
+}
+
+.footer {
+  padding: 30px 0;
+  font-size: 14px;
+  background: #161616;
+  color: #A6A6A6;
+  line-height: 25px;
+}
+
+.footer .heading {
+  font-size: 16px;
+  color: #FFF;
+}
+
+.footer a,
+.footer-moar a {
+  color: #A6A6A6;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.footer-moar {
+  padding: 20px 0;
+  font-size: 14px;
+  background: #0A0A0A;
+  color: #666;
+  line-height: 25px;
+}
